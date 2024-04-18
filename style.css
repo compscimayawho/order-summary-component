@@ -58,12 +58,11 @@ body {
 }
 
 .order-description p {
-    margin: 1rem 0;
     font-size: 0.9rem;
     font-weight: 500;
     color: var(--desaturated-blue);
     line-height: 1.3rem;
-    margin: 0.7rem 0;
+    margin-top: 0.7rem;
 }
 
 .order-plan-type {
@@ -115,13 +114,6 @@ body {
     color: rgba(55, 41, 255, 0.8);
 }
 
-.component-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .btn-payment {
     background-color: var(--bright-blue);
     color: var(--very-pale-blue);
@@ -157,5 +149,59 @@ body {
         background-image: url(./images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: contain;
+    }
+
+    .component-image .image {
+        width: 25rem;
+    }
+
+    .component-body {
+        padding: 1.5rem 2.5rem;
+        gap: 1.5rem;
+    }
+
+    .order-description h2 {
+        font-size: 1.7rem;
+    }
+
+
+    .order-description p {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+
+
+    .order-plan-type {
+        padding: 1.3rem;
+    }
+
+    .plan-information {
+        gap: 1.2rem;
+    }
+
+    .plan-information img {
+        width: 3rem;
+    }
+
+    .plan-description p:nth-child(1) {
+        font-size: 1rem;
+    }
+
+    .plan-description p:nth-child(2) {
+        font-size: 0.9rem;
+    }
+
+
+    .order-plan-type a {
+        font-size: 0.8rem;
+    }
+
+    .btn-payment {
+        font-size: 1rem;
+    }
+
+    .btn-cancel {
+        /* margin: 0.5rem 0; */
+        font-size: 1rem;
     }
 }
